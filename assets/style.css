@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 90vh;
+    width: 99vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.animation{
+
+    width: 200px;
+    height: 200px;
+    background-image: url(https://i.dlpng.com/static/png/5899106-dvd-video-logo-png-abeoncliparts-cliparts-vectors-dvd-video-logo-png-1600_900_preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-duration: 3s;
+    animation-name: Move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+
+
+
+}
+
+
+
+@keyframes Move{
+
+    0%{
+        left: 0;
+        top: 0;
+        
+    }
+    5%{
+        left: 9%;
+        top:9%;
+
+    }
+    10%{
+        left: 18%;
+        top: 18%;
+        
+    }
+    15%{
+        left:27% ;
+        top:27% ;
+    }
+
+    20%{
+          left: 35%;
+          top: 35%;
+       
+    }
+
+
+    25%{
+        left: 44%;
+        top: 44%;
+    }
+
+    30%{
+        left: 35%;
+        top: 53%;
+       
+       
+    }
+    35%{
+        left: 27%;
+        top: 62%;
+       
+    }
+
+    40%{ 
+        left: 18%;
+        top: 71%;
+        
+        
+    }
+
+    45%{
+        left: 9%;
+        top: 80%;
+        
+
+    }
+    50%{
+        
+        left: 0%;
+        top: 89%;
+    }
+
+    55%{
+        
+        left: -9%;
+        top: 80%;   
+     }
+    60%{
+       
+        left: -18%;
+        top: 71%;  
+      }
+    65%{
+        
+        left: -27%;
+        top: 62%;        
+    }
+
+    70%{
+        
+        left: -35%;
+        top: 53%;        
+    }
+    75%{
+        
+        left: -42%;
+        top: 42%;        
+    }
+    80%{
+        
+        left: -35%;
+        top: 35%;        
+    }
+    85%{
+        
+        left: -26%;
+        top: 26%;        
+    }
+    90%{
+        
+        left: -17%;
+        top: 17%;        
+    }
+    95%{
+        
+        left: -8%;
+        top: 8%;        
+    }
+    100%{
+        
+        left: 0%;
+        top: 0%;        
+    }
+}
